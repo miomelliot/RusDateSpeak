@@ -1,0 +1,16 @@
+{
+    "name": "RusDateSpeak",
+    "version": "1.0.0",
+    "description": "My first JavaScript library",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "jest": "^25.1.0"
+    }
+  }
+  
