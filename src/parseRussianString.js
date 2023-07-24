@@ -51,11 +51,11 @@ function getDay(input) {
     if (day_array) {
         return day_array[0];
     } else if (/сегодня/.test(input)) {
-        let day = currentDate.getDate(); // День месяца (от 1 до 31)
+        return currentDate.getDate(); // День месяца (от 1 до 31)
     } else if (/вчера/.test(input)) {
-        let day = new Date((new Date()).setDate((new Date()).getDate() - 1)).getDate(); // День месяца -1 
+        return new Date((new Date()).setDate((new Date()).getDate() - 1)).getDate(); // День месяца -1 
     } else if (/позавчера/.test(input)) {
-        let day = new Date((new Date()).setDate((new Date()).getDate() - 2)).getDate(); // День месяца -2
+        return new Date((new Date()).setDate((new Date()).getDate() - 2)).getDate(); // День месяца -2
     }
 }
 
