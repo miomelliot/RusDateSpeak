@@ -60,7 +60,8 @@ function getDay(input) {
 }
 
 function getHour(input) {
-    // реализация функции для извлечения часа из input
+    let hour_array = input.match(/\b(?:[0-9]|1[0-9]|2[0-3])\b\sчас|\b(?:|[0-9]|0[0-9]|1[0-9]|2[0-3])\b:\b(?:[0-9]|[0-5][0-9])\b/i);
+    
 }
 
 function getMinute(input) {
